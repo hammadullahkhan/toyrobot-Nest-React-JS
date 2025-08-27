@@ -31,6 +31,9 @@ RoboToyGame-NestReactJS/
 └── package.json           # Root package management
 ```
 
+## Output
+<img width="580" height="828" alt="image" src="https://github.com/user-attachments/assets/05566ec1-2040-4424-98c9-f325bc2657ef" />
+
 ## 🚀 Quick Start
 
 ### Prerequisites
