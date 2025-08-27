@@ -126,9 +126,12 @@ function App() {
 
   return (
     <div className="App">
-      <h1>{CONSTANTS.HEADING}</h1>
+      
       <div className="main-content">
         
+        <div>
+          <h1>{CONSTANTS.HEADING}</h1>
+        </div>
         <div className="panel">
         
           <div className="info">{CONSTANTS.INFO}</div>          
