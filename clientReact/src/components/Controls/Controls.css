@@ -1,0 +1,42 @@
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-width: 300px;
+}
+
+.sub-controls {
+  display: inline-flex;
+  gap: 70px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.sub-controls button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  min-width: 120px;
+  background: linear-gradient(to bottom, #51AECC, #5AB6B8);
+  color: #2A3034;
+}
+
+.controls button:hover {
+  background-color: #45a049;
+}
+
+.report-btn button {
+  background-color: #2B3538;
+  border: 2px solid #3F8BA6;
+  color: #DDDDDE;
+  min-width: 160px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 15px;
+}
+

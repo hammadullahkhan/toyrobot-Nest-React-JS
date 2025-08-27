@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+  background-color: #202527;
+  margin: 0;
+}
+
+h1 {
+  color: #faf2f2;
+  margin-bottom: 30px;
+}
+
+.info {
+  text-align: center;
+  color: #FEFEFE;
+  background-color: #303537;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  font-size: small;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.report {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196F3;
+  border-radius: 5px;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 18px;
+}
