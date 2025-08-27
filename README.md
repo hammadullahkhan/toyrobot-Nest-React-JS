@@ -32,7 +32,8 @@ RoboToyGame-NestReactJS/
 ```
 
 ## Output
-<img width="580" height="828" alt="image" src="https://github.com/user-attachments/assets/05566ec1-2040-4424-98c9-f325bc2657ef" />
+<img width="684" height="826" alt="image" src="https://github.com/user-attachments/assets/c68267af-cbe9-4d27-9285-be535f641b1f" />
+
 
 ## 🚀 Quick Start
 
