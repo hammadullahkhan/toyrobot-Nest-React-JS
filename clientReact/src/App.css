@@ -31,7 +31,7 @@ h1 {
 .panel {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  /* align-items: center; */
 }
 
 .report {
