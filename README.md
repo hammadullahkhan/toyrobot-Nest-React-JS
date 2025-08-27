@@ -1,6 +1,6 @@
 # Toy Robot Simulator - Multi-Client Application
 
-A comprehensive Toy Robot Simulator application with multiple client implementations (React and Angular) connected to a shared NestJS backend.
+A comprehensive Toy Robot Simulator application with React client implementation connected to a shared NestJS backend.
 
 ## 🏗️ Architecture Overview
 
@@ -8,7 +8,6 @@ This project demonstrates how to build the same application using different fron
 
 - **Backend**: NestJS server with TypeORM and SQLite
 - **React Client**: Modern React application with hooks and functional components
-- **Angular Client**: Latest Angular application with standalone components
 - **Shared Database**: SQLite database accessible by all clients
 
 ## 📁 Project Structure
@@ -66,12 +65,6 @@ RoboToyGame-NestReactJS/
    # Opens at http://localhost:3000
    ```
    
-   **For Angular:**
-   ```bash
-   npm run start:clientAngular
-   # Opens at http://localhost:4200
-   ```
-   
    **For both clients simultaneously:**
    ```bash
    npm run dev:both
@@ -107,18 +100,11 @@ RoboToyGame-NestReactJS/
 - **Testing**: Jest + React Testing Library
 - **HTTP**: Axios
 
-### Angular Client (clientAngular)
-- **Framework**: Angular 17+ (standalone components)
-- **Language**: TypeScript
-- **Styling**: Component-scoped CSS
-- **Testing**: Jasmine + Karma
-- **HTTP**: Angular HttpClient
-
 ## 📱 Client Comparison
 
-| Feature | React Client | Angular Client |
+| Feature | React Client |
 |---------|--------------|----------------|
-| Framework | React 18+ | Angular 17+ |
+| Framework | React 18+ |
 | Components | Functional with hooks | Standalone components |
 | State Management | useState, useEffect | Component properties |
 | Event Handling | Props and callbacks | Event binding |
@@ -167,12 +153,6 @@ cd clientReact
 npm test
 ```
 
-### Angular Client Tests
-```bash
-cd clientAngular
-npm test
-```
-
 ## 🚀 Deployment
 
 ### Production Builds
@@ -180,12 +160,6 @@ npm test
 **React Client:**
 ```bash
 cd clientReact
-npm run build
-```
-
-**Angular Client:**
-```bash
-cd clientAngular
 npm run build
 ```
 
@@ -200,7 +174,7 @@ npm start
 
 1. **Backend First**: Always start with the NestJS server
 2. **Database**: Ensure the DATA folder contains the SQLite database
-3. **Client Selection**: Choose React or Angular based on preference
+3. **Client Selection**: Choose React based on preference
 4. **Testing**: Run tests before committing changes
 5. **Synchronization**: All clients share the same backend state
 
@@ -211,7 +185,6 @@ npm start
 1. **Port Conflicts**
    - Backend: 3000
    - React: 3000 (conflicts with backend)
-   - Angular: 4200
 
 2. **Database Locking**
    - Stop all running processes before moving database files
@@ -229,7 +202,6 @@ npm start
 ### Performance Tips
 
 - Use React.memo() for React components (if needed)
-- Implement OnPush change detection for Angular
 - Debounce frequent API calls
 - Optimize CSS animations with will-change property
 
@@ -249,9 +221,7 @@ This project is part of the RoboToyGame-NestReactJS application suite.
 
 - [Server README](./server/README.md)
 - [React Client README](./clientReact/README.md)
-- [Angular Client README](./clientAngular/README.md)
 - [NestJS Documentation](https://nestjs.com/)
 - [React Documentation](https://react.dev/)
-- [Angular Documentation](https://angular.io/)
 
 
