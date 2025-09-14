@@ -1,0 +1,11 @@
+<div class="grid">
+  <ng-container *ngFor="let row of [4,3,2,1,0]; let y = index">
+    <ng-container *ngFor="let col of [0,1,2,3,4]; let x = index">
+      <div class="cell">
+        <ng-container *ngIf="robot && robot.x === col && robot.y === row">
+          <app-robot [facing]="robot.facing"></app-robot>
+        </ng-container>
+      </div>
+    </ng-container>
+  </ng-container>
+</div>

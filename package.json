@@ -4,11 +4,13 @@
   "scripts": {
     "install:server": "cd server && npm install",
     "install:clientReact": "cd clientReact && npm install",
-    "install:all": "npm run install:server && npm run install:clientReact",
+    "install:clientAngular": "cd clientAngular && npm install",
+    "install:all": "npm run install:server && npm run install:clientReact && npm run install:clientAngular",
     "start:server": "cd server && npm run start:dev",
     "start:clientReact": "cd clientReact && npm start",
-    "dev": "concurrently \"npm run start:server\" \"npm run start:clientReact\"",    
-    "dev:both": "concurrently \"npm run start:server\" \"npm run start:clientReact\" "
+    "start:clientAngular": "cd clientAngular && npm start",
+    "dev": "concurrently \"npm run start:server\" \"npm run start:clientReact\" \"npm run start:clientAngular\"",
+    "dev:both": "concurrently \"npm run start:server\" \"npm run start:clientReact\" \"npm run start:clientAngular\" "
   },
   "devDependencies": {
     "concurrently": "^7.6.0"

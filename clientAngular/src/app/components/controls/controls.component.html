@@ -1,0 +1,17 @@
+<div class="controls">
+  <label>X: <input type="number" [(ngModel)]="x" min="0" max="4"></label>
+  <label>Y: <input type="number" [(ngModel)]="y" min="0" max="4"></label>
+  <label>Facing:
+    <select [(ngModel)]="facing">
+      <option value="NORTH">NORTH</option>
+      <option value="EAST">EAST</option>
+      <option value="SOUTH">SOUTH</option>
+      <option value="WEST">WEST</option>
+    </select>
+  </label>
+  <button (click)="onPlace()">Place</button>
+  <button (click)="move.emit()">Move</button>
+  <button (click)="left.emit()">Left</button>
+  <button (click)="right.emit()">Right</button>
+  <button (click)="report.emit()">Report</button>
+</div>

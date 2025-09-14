@@ -1,0 +1,14 @@
+<div style="text-align:center">
+  <h1>Toy Robot Simulator (Angular)</h1>
+  <app-grid [robot]="robot"></app-grid>
+  <app-controls
+    (place)="onPlace($event)"
+    (move)="onMove()"
+    (left)="onLeft()"
+    (right)="onRight()"
+    (report)="onReport()"
+  ></app-controls>
+  <div *ngIf="reportText">
+    <strong>Report:</strong> {{ reportText }}
+  </div>
+</div>
